@@ -32,6 +32,10 @@ class GameController extends Phaser.Scene {
     frameRate: 15,
     repeat: -1,
     });
+           
+
+
+    
 
     // Phát animation cho nhân vật
     this.player.play("anim_coins", true);
