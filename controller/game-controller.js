@@ -44,6 +44,10 @@ class GameController extends Phaser.Scene {
     
     console.log(this.player);
     
+
+//test
+
+
     // Thêm chướng ngại vật
     this.obstacles = this.physics.add.group({
     key: "obstacle",
